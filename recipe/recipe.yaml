@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: gpjax
   version: "0.13.0"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -32,7 +32,7 @@ requirements:
     - jaxtyping >0.2.10
     - tqdm >4.66.2
     - beartype >0.16.1
-    - flax >=0.10.0
+    - flax >=0.12.0
     - numpy >=2.0.0
 
 tests:
