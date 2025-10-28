@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: gpjax
-  version: "0.13.0"
+  version: "0.13.1"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gpjax/${{ name }}-${{ version }}.tar.gz
-  sha256: 28c1b8279e67dabbaf9e7cf7bde9136ce3ef2675e5e10562d554e5c9a43f791e
+  sha256: a92212e7616695e4cc958334b755af6a67486eb8b845540fd0637206573aa8b2
 
 build:
   number: 0
