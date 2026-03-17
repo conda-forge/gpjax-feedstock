@@ -1,7 +1,6 @@
 schema_version: 1
 
 context:
-  name: gpjax
   version: "0.13.4"
   python_min: "3.11"
 
@@ -10,11 +9,11 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/g/gpjax/${{ name }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/g/gpjax/gpjax-${{ version }}.tar.gz
   sha256: 0005fd5e2cff00bcf03efef9eb2282454202c02b6664f9a61ea9eead75fd5bc3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
